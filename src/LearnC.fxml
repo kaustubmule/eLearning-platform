@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LearnCController" >
+   <children>
+      <ScrollPane layoutX="1.0" prefHeight="400.0" prefWidth="600.0" >
+         <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="562.0" prefWidth="599.0">
+               <children>
+                  <Button fx:id="backButton" layoutX="26.0" layoutY="489.0" mnemonicParsing="false" onAction="#backButtonClicked" text="Back" />
+                  <Text layoutX="46.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972. If you know C, you will have no problem learning other popular programming languages such as Java, Python, C++, C#, etc, as the syntax is similar. C++ was developed as an extension of C, and both languages have almost the same syntaxThe main difference between C and C++ is that C++ support classes and objects, while C does not. C is very versatile; it can be used in both applications and technologies" textAlignment="JUSTIFY" wrappingWidth="485.13671875">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="67.0" fitWidth="65.0" layoutX="501.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@components/c.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="43.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Learn C With E-Learn" wrappingWidth="458.13671875">
+                     <font>
+                        <Font name="Lucida Handwriting Italic" size="24.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="46.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data types are divided into two groups:                                                                      Primitive data types - includes int, long int, float, double and char                                                                                                                            Non-primitive data types - such as String, Arrays, Structures and Union (you will learn more about these in a later chapter)" textAlignment="JUSTIFY" wrappingWidth="485.13671875">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="43.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.To create an array, define the data type (like int) and specify the name of the array followed by square brackets [].                                                                                                                               To insert values to it, use a comma-separated list, inside curly braces. To access an array element, refer to its index number." textAlignment="JUSTIFY" wrappingWidth="485.13671875">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="43.0" layoutY="409.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C is strongly associated with UNIX, as it was developed to write the UNIX operating system. C is very versatile; it can be used in both applications and technologies. Embedded systems are systems that are integrated into a larger system. Integrated software libraries for enterprises. These are instances of where it's used." textAlignment="JUSTIFY" wrappingWidth="485.13671875">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="43.0" layoutY="477.0" strokeType="OUTSIDE" strokeWidth="0.0" text="For more details: " textAlignment="JUSTIFY" wrappingWidth="485.13671875">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <Hyperlink layoutX="150.0" layoutY="462.0" text="https://en.wikipedia.org/wiki/C_(programming_language)">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Hyperlink>
+                  <Button fx:id="quizButton" layoutX="513.0" layoutY="489.0" mnemonicParsing="false" onAction="#quizButtonClicked" text="Quiz" />
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

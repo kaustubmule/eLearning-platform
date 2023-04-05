@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LearnJavaController">
+   <children>
+      <ScrollPane layoutX="1.0" prefHeight="400.0" prefWidth="600.0">
+         <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="562.0" prefWidth="599.0">
+               <children>
+                  <Button fx:id="backButton" layoutX="26.0" layoutY="489.0" mnemonicParsing="false" onAction="#backButtonClicked" text="Back" />
+                  <Text layoutX="46.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers write once, run anywhere (WORA). The syntax of Java is similar to C and C++, but has fewer low-level facilities than either of them. Java was originally developed by James Gosling at Sun Microsystems. It was released in May 1995 as a core component of Sun Microsystems' Java platform." textAlignment="JUSTIFY" wrappingWidth="485.13671875">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="67.0" fitWidth="65.0" layoutX="501.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@components/java.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="43.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Learn Java With E-Learn" wrappingWidth="458.13671875">
+                     <font>
+                        <Font name="Lucida Handwriting Italic" size="24.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="46.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data types are divided into two groups:                                                                      Primitive data types - includes byte, short, int, long, float, double, boolean and char                                                                                                                            Non-primitive data types - such as String, Arrays and Classes (you will learn more about these in a later chapter)" textAlignment="JUSTIFY" wrappingWidth="485.13671875">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="43.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A String variable contains a collection of characters surrounded by double quotes. A String in Java is actually an object, which contain methods that can perform certain operations on strings. For example, the length of a string can be found with length().                                                                                                                      The + operator can be used between strings to combine them. This is called concatenation. The sequence \&quot;  inserts a double quote in a string." textAlignment="JUSTIFY" wrappingWidth="485.13671875">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="43.0" layoutY="409.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Java is used to develop desktop and mobile applications, big data processing, embedded systems, and so on. According to Oracle, the company that owns Java, Java runs on 3 billion devices worldwide, which makes Java one of the most popular programming languages." textAlignment="JUSTIFY" wrappingWidth="485.13671875">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="43.0" layoutY="477.0" strokeType="OUTSIDE" strokeWidth="0.0" text="For more details: " textAlignment="JUSTIFY" wrappingWidth="485.13671875">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <Hyperlink layoutX="150.0" layoutY="462.0" text="https://en.wikipedia.org/wiki/Java_(programming_language)">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Hyperlink>
+                  <Button fx:id="quizButton" layoutX="513.0" layoutY="489.0" mnemonicParsing="false" onAction="#quizButtonClicked" text="Quiz" />
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

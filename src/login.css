@@ -1,0 +1,44 @@
+.root {
+  -fx-background-color: "black";
+}
+
+.anchorpane {
+  -fx-background-color: "black";
+}
+
+.label {
+  -fx-font-size: 16px;
+  -fx-font-family: "Lucida Console";
+}
+
+#successMSG {
+  -fx-font-size: 40px;
+}
+#wrongnameLabel,
+#wrongpwdLabel {
+  -fx-text-fill: red;
+}
+
+#loginLabel {
+  -fx-font-size: 50px;
+  -fx-text-fill: "white";
+}
+
+#nameLabel,
+#pwdLabel {
+  -fx-text-fill: "white";
+}
+.test {
+  -fx-text-fill: white;
+}
+.button,
+#quizButton {
+  -fx-background-color: darkslateblue;
+  -fx-text-fill: white;
+  -fx-cursor: hand;
+}
+
+#gohomeButton,
+#quitButton {
+  -fx-background-color: #30303f;
+}

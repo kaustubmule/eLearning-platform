@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LearnPHPController">
+   <children>
+      <ScrollPane layoutX="1.0" prefHeight="400.0" prefWidth="600.0">
+         <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="562.0" prefWidth="599.0">
+               <children>
+                  <Button fx:id="backButton" layoutX="26.0" layoutY="489.0" mnemonicParsing="false" onAction="#backButtonClicked" text="Back" />
+                  <Text layoutX="46.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PHP is a general-purpose scripting language geared toward web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1993 and released in 1995. The PHP reference implementation is now produced by The PHP Group. PHP (recursive acronym for PHP: Hypertext Preprocessor ) is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML. PHP is an open-source, server-side programming language." textAlignment="JUSTIFY" wrappingWidth="485.13671875">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="64.0" fitWidth="84.0" layoutX="486.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@components/php.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="43.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Learn PHPWith E-Learn" wrappingWidth="458.13671875">
+                     <font>
+                        <Font name="Lucida Handwriting Italic" size="24.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="46.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data types are divided into two groups:                                                                      Common data types - includes Integer, Float, String and Boolean                                                                                                                    Object data types - such as Object, Arrays and Resource(you will learn more about these in a later chapter)" textAlignment="JUSTIFY" wrappingWidth="485.13671875">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="43.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A PHP script is executed on the server, and the plain HTML result is sent back to the browser. A PHP script can be placed anywhere in the document.A PHP script starts with &lt;?php and ends with ?&gt;. The default file extension for PHP files is &quot;.php&quot;.A PHP file normally contains HTML tags, and some PHP scripting code.                           With PHP, there are two basic ways to get output: echo and print. echo and print are more or less the same. They are both used to output data to the screen." textAlignment="JUSTIFY" wrappingWidth="485.13671875">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="43.0" layoutY="409.0" strokeType="OUTSIDE" strokeWidth="0.0" text="It is powerful enough to be at the core of the biggest blogging system on the web (WordPress). It is deep enough to run large social networks. It is also easy enough to be a beginner's first server side language." textAlignment="JUSTIFY" wrappingWidth="485.13671875">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="43.0" layoutY="477.0" strokeType="OUTSIDE" strokeWidth="0.0" text="For more details: " textAlignment="JUSTIFY" wrappingWidth="485.13671875">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <Hyperlink layoutX="150.0" layoutY="462.0" text="https://en.wikipedia.org/wiki/PHP">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Hyperlink>
+                  <Button fx:id="quizButton" layoutX="513.0" layoutY="489.0" mnemonicParsing="false" onAction="#quizButtonClicked" text="Quiz" />
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

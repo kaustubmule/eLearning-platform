@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HomePageController">
+   <children>
+      <HBox layoutX="20.0" layoutY="49.0" prefHeight="79.0" prefWidth="445.0" spacing="60.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="49.0">
+         <children>
+            <Button fx:id="javaButton" mnemonicParsing="false" onAction="#javaClicked" prefHeight="71.0" prefWidth="250.0" text="JAVA">
+               <font>
+                  <Font size="50.0" />
+               </font>
+            </Button>
+            <Button fx:id="cppButton" mnemonicParsing="false" onAction="#cppClicked" prefHeight="107.0" prefWidth="250.0" text="Cpp">
+               <font>
+                  <Font size="50.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox layoutX="20.0" layoutY="166.0" prefHeight="107.0" prefWidth="560.0" spacing="60.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="166.0">
+         <children>
+            <Button fx:id="cButton" mnemonicParsing="false" onAction="#cClicked" prefHeight="31.0" prefWidth="250.0" text="C">
+               <font>
+                  <Font size="50.0" />
+               </font>
+            </Button>
+            <Button fx:id="pythonButton" mnemonicParsing="false" onAction="#pythonClicked" prefHeight="107.0" prefWidth="250.0" text="Python">
+               <font>
+                  <Font size="50.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox layoutX="20.0" layoutY="285.0" prefHeight="107.0" prefWidth="560.0" spacing="60.0" AnchorPane.bottomAnchor="8.0">
+         <children>
+            <Button fx:id="phpButton" mnemonicParsing="false" onAction="#phpClicked" prefHeight="31.0" prefWidth="250.0" text="PHP">
+               <font>
+                  <Font size="50.0" />
+               </font>
+            </Button>
+            <Button fx:id="jsButton" mnemonicParsing="false" onAction="#jsClicked" prefWidth="250.0" text="JS">
+               <font>
+                  <Font size="50.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <Button fx:id="gohomeButton" layoutX="20.0" layoutY="9.0" mnemonicParsing="false" onAction="#gohomeButtonClicked" prefHeight="31.0" prefWidth="250.0" text="HOME" />
+      <Button fx:id="quitButton" layoutX="330.0" layoutY="9.0" mnemonicParsing="false" onAction="#quitButtonClicked" prefHeight="31.0" prefWidth="250.0" text="QUIT" />
+   </children>
+</AnchorPane>

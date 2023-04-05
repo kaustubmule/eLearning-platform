@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LearnCppController">
+   <children>
+      <ScrollPane layoutX="1.0" prefHeight="400.0" prefWidth="600.0">
+         <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="562.0" prefWidth="599.0">
+               <children>
+                  <Button fx:id="backButton" layoutX="26.0" layoutY="489.0" mnemonicParsing="false" onAction="#backButtonClicked" text="Back" />
+                  <Text layoutX="46.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C++ is an object-oriented programming language which gives a clear structure to programs and allows code to be reused, lowering development costs.C++ is portable and can be used to develop applications that can be adapted to multiple platforms. C++ was developed as an extension of C, and both languages have almost the same syntax.The main difference between C and C++ is that C++ support classes and objects, while C does not. C++ is a cross-platform language that can be used to create high-performance applications." textAlignment="JUSTIFY" wrappingWidth="485.13671875">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="67.0" fitWidth="65.0" layoutX="501.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@components/c++.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="43.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Learn C++With E-Learn" wrappingWidth="458.13671875">
+                     <font>
+                        <Font name="Lucida Handwriting Italic" size="24.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="46.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data types are divided into two groups:                                                                      Primitive data types - includes int, long, float, double, boolean and char                                                                                                                            Non-primitive data types - such as String, Structures, Arrays and Classes (you will learn more about these in a later chapter)" textAlignment="JUSTIFY" wrappingWidth="485.13671875">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="43.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A String variable contains a collection of characters surrounded by double quotes. A String in C++ is a sequence of characters, which contain methods that can perform certain operations on strings. For example, the length of a string can be found with length().                                                                                                                      The + operator can be used between strings to combine them. This is called concatenation. The sequence \&quot;  inserts a double quote in a string." textAlignment="JUSTIFY" wrappingWidth="485.13671875">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="43.0" layoutY="409.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C++ can be found in today's operating systems, Graphical User Interfaces, and embedded systems. C++ gives programmers a high level of control over system resources and memory." textAlignment="JUSTIFY" wrappingWidth="485.13671875">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="43.0" layoutY="477.0" strokeType="OUTSIDE" strokeWidth="0.0" text="For more details: " textAlignment="JUSTIFY" wrappingWidth="485.13671875">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <Hyperlink layoutX="150.0" layoutY="462.0" text="https://en.wikipedia.org/wiki/C%2B%2B">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Hyperlink>
+                  <Button fx:id="quizButton" layoutX="513.0" layoutY="489.0" mnemonicParsing="false" onAction="#quizButtonClicked" text="Quiz" />
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

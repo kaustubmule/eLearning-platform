@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LearnJSController">
+   <children>
+      <ScrollPane layoutX="1.0" prefHeight="400.0" prefWidth="600.0">
+         <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="562.0" prefWidth="599.0">
+               <children>
+                  <Button fx:id="backButton" layoutX="26.0" layoutY="489.0" mnemonicParsing="false" onAction="#backButtonClicked" text="Back" />
+                  <Text layoutX="46.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JavaScript is the programming language of the Web. JavaScript often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. JavaScript is a multi-paradigm, dynamic language with types and operators, standard built-in objects, and methods. Its syntax is based on the Java and C languages — many structures from those languages apply to JavaScript as well. JavaScript supports object-oriented programming with object prototypes and classes." textAlignment="JUSTIFY" wrappingWidth="485.13671875">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="64.0" fitWidth="84.0" layoutX="486.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@components/javascript.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="43.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Learn JS With E-Learn" wrappingWidth="458.13671875">
+                     <font>
+                        <Font name="Lucida Handwriting Italic" size="24.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="46.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data types are divided into two groups:                                                                      Common data types - includes int, long, float, double, String and char                                                                                                                            Object data types - such as Object, Arrays and Dates (you will learn more about these in a later chapter)" textAlignment="JUSTIFY" wrappingWidth="485.13671875">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="43.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="By default, JavaScript will use the browser's time zone and display a date as a full text string. Date objects are created with the new Date() constructor. new Date() creates a date object with the current date and time. 7 numbers specify year, month, day, hour, minute, second, and millisecond (in that order). Specifying a month higher than 11, will not result in an error but add the overflow to the next year." textAlignment="JUSTIFY" wrappingWidth="485.13671875">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="43.0" layoutY="409.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. The primary use of JavaScript is to build web-based applications. Some of what JavaScript can do for the web includes: adding interactive behavior to web pages." textAlignment="JUSTIFY" wrappingWidth="485.13671875">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="43.0" layoutY="477.0" strokeType="OUTSIDE" strokeWidth="0.0" text="For more details: " textAlignment="JUSTIFY" wrappingWidth="485.13671875">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Text>
+                  <Hyperlink layoutX="150.0" layoutY="462.0" text="https://en.wikipedia.org/wiki/JavaScript">
+                     <font>
+                        <Font name="Lucida Bright Italic" size="12.0" />
+                     </font>
+                  </Hyperlink>
+                  <Button fx:id="quizButton" layoutX="513.0" layoutY="489.0" mnemonicParsing="false" onAction="#quizButtonClicked" text="Quiz" />
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
