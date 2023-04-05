@@ -1,10 +1,9 @@
+![]([https://media.tenor.com/-Y2YOay3_JoAAAAM/its-friday-dancing.gif](https://giphy.com/embed/LNGX8ptO0DGis4HL01))
 #Contributers
 Kaustub Mule
 Anuj Chandak
 Christopher Dsouza
 Raj Shukla
-
-![](https://media.tenor.com/-Y2YOay3_JoAAAAM/its-friday-dancing.gif)
 
 #E-Learning Platform
 
