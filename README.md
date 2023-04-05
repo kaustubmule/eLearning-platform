@@ -4,6 +4,8 @@ Anuj Chandak
 Christopher Dsouza
 Raj Shukla
 
+![](https://media.tenor.com/-Y2YOay3_JoAAAAM/its-friday-dancing.gif)
+
 #E-Learning Platform
 
 #Java Project
